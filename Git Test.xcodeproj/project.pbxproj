@@ -21,6 +21,7 @@
 		22B0D8FF19A1C86200439A0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B0D8E119A1C86200439A0E /* UIKit.framework */; };
 		22B0D90719A1C86300439A0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B0D90519A1C86300439A0E /* InfoPlist.strings */; };
 		22B0D90919A1C86300439A0E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0D90819A1C86300439A0E /* Git_TestTests.m */; };
+		22B0D91419A1CBDB00439A0E /* BPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0D91319A1CBDB00439A0E /* BPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		22B0D90419A1C86300439A0E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		22B0D90619A1C86300439A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22B0D90819A1C86300439A0E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		22B0D91219A1CBDB00439A0E /* BPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPTest.h; sourceTree = "<group>"; };
+		22B0D91319A1CBDB00439A0E /* BPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		22B0D8D119A1C86200439A0E = {
 			isa = PBXGroup;
 			children = (
+				22B0D91219A1CBDB00439A0E /* BPTest.h */,
+				22B0D91319A1CBDB00439A0E /* BPTest.m */,
 				22B0D8E319A1C86200439A0E /* Git Test */,
 				22B0D90219A1C86300439A0E /* Git TestTests */,
 				22B0D8DC19A1C86200439A0E /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B0D8F419A1C86200439A0E /* BPViewController.m in Sources */,
+				22B0D91419A1CBDB00439A0E /* BPTest.m in Sources */,
 				22B0D8EE19A1C86200439A0E /* BPAppDelegate.m in Sources */,
 				22B0D8EA19A1C86200439A0E /* main.m in Sources */,
 			);
